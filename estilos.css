@@ -1,0 +1,273 @@
+#nombreindice {
+    margin-left: 5px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#img-icon {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	border-radius: 50%;
+	object-fit: cover;
+  }
+
+#navbarbrand {
+	margin-left: 16px;
+}
+
+#navbarNav {
+	margin-right: 20px;
+	
+}
+
+@media (min-width: 768px) {
+
+.card-img-overlay {
+	display: none;
+}
+
+body {
+    background-image: radial-gradient(circle, #66cc33, #66cc33, #66cc33, #66cc33, #66cc33, #3fc258, #17b771, #00aa81, #008a8e, #1a687e, #394859, #2f2f2f);
+	background-attachment: fixed;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	padding: 0;
+    border-radius: 1%;
+    
+}
+
+
+#cv {
+	border-radius: 0,5%;
+    background-image: linear-gradient(to left, #2f2f2f, #3c3c3c, #4a4a4a, #585858, #676767, #757575, #838383, #929292, #a4a4a4, #b6b6b6, #c9c9c9, #dcdcdc);
+    border-left: 0px solid black;
+    padding: 0px;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 3px 3px 6px #363636;
+}
+
+
+header {   
+	background-image: linear-gradient(to right, #66cc33, #66cc33, #66cc33, #66cc33, #66cc33, #3fc258, #17b771, #00aa81, #008a8e, #1a687e, #394859, #2f2f2f);
+	color: #F7F7F7;
+	padding: 20px;
+	border-radius: 1%;
+	text-align: center;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	
+
+}
+#fotoperfil {
+    position: relative;
+    background-image: linear-gradient(to right top, #66cc33, #64c832, #62c431, #60c130, #5ebd2f, #39b351, #13a867, #009b76, #007f83, #1c6176, #384555, #2f2f2f);
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    float: right;
+	box-shadow: 3px 3px 6px #363636;
+}
+    .fotoperfil img {
+        width: 150px;
+        border-radius: 50%;
+}
+
+header h1 {
+	margin: 0;
+}
+
+
+section {
+    
+	margin: 20px;
+    width: 50%;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+li {
+	margin-bottom: 2px;
+}
+
+li p {
+	margin: 0;
+	margin-bottom: 1px;
+}
+
+
+li h3 {
+	margin-top: 0;
+}
+
+
+footer {
+	background-color: #2f2f2f;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-size: 0.8em;
+	border-radius: 1%;
+    
+
+}
+
+footer p {
+	margin: 0;
+}
+
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}}
+
+
+
+
+@media (max-width: 767px) {
+
+.card-body {
+	display: none;
+}
+
+.card-img-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5); 
+	color: white;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}	
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 0;
+	padding: 0;
+    max-width: 100%;
+}
+
+#cv {
+	background-image: #dcdcdc;
+	border: 2px solid black;
+	padding: 0px;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+
+header {
+	background-image: radial-gradient(circle, #66cc33, #64c832, #62c431, #60c130, #5ebd2f, #39b351, #13a867, #009b76, #007f83, #1c6176, #384555, #2f2f2f);
+	color: #F7F7F7;
+	padding: 20px;
+	text-align: center;
+	text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+}
+
+#fotoperfil {
+	position: relative;
+	background-image: linear-gradient(to top, #66cc33, #64c832, #62c431, #60c130, #5ebd2f, #39b351, #13a867, #009b76, #007f83, #1c6176, #384555, #2f2f2f);
+	padding: 5px;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	box-shadow: 2px 2px 4px #363636;
+	
+}
+
+.fotoperfil img {
+	width: 150px;
+	border-radius: 50%;
+}
+
+header h1 {
+	margin: 0;
+}
+
+
+section {
+	background-image: #dcdcdc;
+	border: 2px solid black;
+	margin: 0px;
+	width: 100%;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+li {
+	margin-bottom: 10px;
+}
+
+li p {
+	margin: 0;
+}
+
+
+li h3 {
+	margin-top: 0;
+}
+
+
+footer {
+	background-color: #2f2f2f;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-size: 0.8em;
+}
+
+footer p {
+	margin: 0;
+}
+
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+}
