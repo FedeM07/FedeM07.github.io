@@ -45,7 +45,7 @@ body {
     background-image: linear-gradient(to left, #2f2f2f, #3c3c3c, #4a4a4a, #585858, #676767, #757575, #838383, #929292, #a4a4a4, #b6b6b6, #c9c9c9, #dcdcdc);
     border-left: 0px solid black;
     padding: 0px;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     box-shadow: 3px 3px 6px #363636;
 }
@@ -82,10 +82,22 @@ header h1 {
 	margin: 0;
 }
 
+.carta-i {
+	margin: 20px;
+    margin-left:100px;
+
+}
+
+.carta-d {
+	margin: 20px;
+	margin-left: 570px;
+
+}
 
 section {
     
 	margin: 20px;
+	
     width: 50%;
 }
 
