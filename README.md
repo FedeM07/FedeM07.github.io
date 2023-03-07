@@ -1,4 +1,4 @@
-# FedeM07.github.io
+# FedeM07/RandomCV
 
 Hola! soy Federico Monzon y este es mi primer proyecto Web.
 
@@ -10,3 +10,5 @@ Como nota personal, quedo contento con lo logrado hasta el momento ya que todo f
  se podrian agregar mas funcionalidaes e interactividad y principalmente un estilo mas coherente y acorde, pero debido a mis tiempos y conocimientos
  no me es posible por el momento.
  muchas gracias por su atencion, espero sea de su agrado, saludos.
+ 
+PD: actualizar la pagina (f5) para obtener un nuevo usuario.
